@@ -18,7 +18,7 @@ export function useState<S extends object>(init?: S): [S, Callback<S>] {
     const [key, val] = args;
 
     if (isObj(state) && typeof key === 'string') {
-      return val ? setState(set(key, val)) : change.bind(null, key);
+      return val === undefined ? change.bind(null, key) : setState(set(key, val));
     }
 
     return setState(key as any);
