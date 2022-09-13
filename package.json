@@ -42,7 +42,7 @@
     "version": "npm run build"
   },
   "peerDependencies": {
-    "help-es": "^0.2.2",
+    "help-es": "0.8.0",
     "react": "^17.0.2"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "esbuild": "^0.13.8",
     "esbuild-plugin-glob": "^1.0.3",
     "eslint": "^8.0.1",
-    "help-es": "^0.2.2",
+    "help-es": "0.8.0",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
   }
